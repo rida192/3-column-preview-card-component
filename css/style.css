@@ -102,8 +102,16 @@ ul{
         border-radius: 0 0 6px 6px;
     }
 }
-img{
-
+@media (max-width:767px){
+    .one{
+        border-radius: 6px 6px 0 0;
+    }
+    .two{
+        border-radius: 0 0 0 0;
+    }
+    .three{
+        border-radius: 0 0 6px 6px;
+    }
 }
 .text{
     /* margin-bottom: 100px; */
